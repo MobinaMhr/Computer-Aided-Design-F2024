@@ -11,5 +11,3 @@ module N_bit_two_to_one_mux #(parameter N = 5) (
         end
     endgenerate
 endmodule
-
-

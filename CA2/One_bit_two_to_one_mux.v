@@ -1,4 +1,4 @@
-module One_bit_four_to_one_mux (input D00, D01, sel, output out);
+module One_bit_two_to_one_mux (input D00, D01, sel, output out);
 
     Actel_C2 actl_c2_3(
         .out(out),

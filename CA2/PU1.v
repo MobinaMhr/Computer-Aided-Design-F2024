@@ -6,9 +6,9 @@ module Pu1(input [4:0] input1, input2, input3, input4, weight1, weight2, weight3
     wire [11:0] add_out;
 
     assign mul_out1 = input1;
-    assign mul_out2 = {3'b100, input2[8:7]};
-    assign mul_out3 = {3'b100, input3[8:7]};
-    assign mul_out4 = {3'b100, input4[8:7]};
+    assign mul_out2 = {3'b100, input2[3:2]};
+    assign mul_out3 = {3'b100, input3[3:2]};
+    assign mul_out4 = {3'b100, input4[3:2]};
 
 //     Multiplier #(5) Mult1(.x(input1), .y(weight1), .z(mul_out1));
 //     Multiplier #(5) Mult2(.x(input2), .y(weight2), .z(mul_out2));

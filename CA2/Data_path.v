@@ -27,10 +27,10 @@ module datapath #(parameter WIDTH = 5) (input [WIDTH - 1:0] X1, X2, X3, X4,
     Register #(5) temp3(.inp(w3), .en(ld_t), .clk(clk), .rst(rst), .out(t3_out));
     Register #(5) temp4(.inp(w4), .en(ld_t), .clk(clk), .rst(rst), .out(t4_out));
 
-    Five_bit_or fBitOr1(.inp(t1_out), .out(t1_ored));
-    Five_bit_or fBitOr2(.inp(t2_out), .out(t2_ored));
-    Five_bit_or fBitOr3(.inp(t3_out), .out(t3_ored));
-    Five_bit_or fBitOr4(.inp(t4_out), .out(t4_ored));
+    Five_bit_or fBitOr1(.inp(t1_out), .out(AF_out1));
+    Five_bit_or fBitOr2(.inp(t2_out), .out(AF_out2));
+    Five_bit_or fBitOr3(.inp(t3_out), .out(AF_out3));
+    Five_bit_or fBitOr4(.inp(t4_out), .out(AF_out4));
 
     Encoder Encdr(.input_1(t1_ored), .input_2(t2_ored), .input_3(t3_ored), .input_4(t4_ored), .encoded_output(res_sel));
 

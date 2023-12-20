@@ -1,4 +1,4 @@
-module Pu1(input [4:0] input1, input2, input3, input4, weight1, weight2, weight3, weight4, input clk, rst, output [11:0] out);
+module Pu4(input [4:0] input1, input2, input3, input4, weight1, weight2, weight3, weight4, input clk, rst, output [11:0] out);
 
     wire [9:0] mul_out1, mul_out2, mul_out3, mul_out4;
     wire [9:0] mul_reg_out1, mul_reg_out2, mul_reg_out3, mul_reg_out4;
