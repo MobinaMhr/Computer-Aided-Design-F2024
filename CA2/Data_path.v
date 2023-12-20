@@ -43,46 +43,46 @@ module datapath #(parameter WIDTH = 5) (input [WIDTH - 1:0] X1, X2, X3, X4,
         .W12(w1_P4), .W13(w2_P4), .t1_out(w3_P4), .t2_out(w4_P4)
     );
 
-    Pu1 Pu_1(
-        .input1(t1_out), .input2(t2_out), .input3(t3_out), .input4(t4_out), 
-        .weight1(w1_P1), .weight2(w2_P1), .weight3(w3_P1), .weight4(w4_P1), 
-        .clk(clk), .rst(rst), .out(PU_out1)
-    );
-    // Pu Pu_1(
+    // Pu1 Pu_1(
     //     .input1(t1_out), .input2(t2_out), .input3(t3_out), .input4(t4_out), 
     //     .weight1(w1_P1), .weight2(w2_P1), .weight3(w3_P1), .weight4(w4_P1), 
     //     .clk(clk), .rst(rst), .out(PU_out1)
     // );
-    Pu2 Pu_2(
+    Pu Pu_1(
         .input1(t1_out), .input2(t2_out), .input3(t3_out), .input4(t4_out), 
-        .weight1(w1_P2), .weight2(w2_P2), .weight3(w3_P2), .weight4(w4_P2), 
-        .clk(clk), .rst(rst), .out(PU_out2)
+        .weight1(w1_P1), .weight2(w2_P1), .weight3(w3_P1), .weight4(w4_P1), 
+        .clk(clk), .rst(rst), .out(PU_out1)
     );
-    // Pu Pu_2(
+    // Pu2 Pu_2(
     //     .input1(t1_out), .input2(t2_out), .input3(t3_out), .input4(t4_out), 
     //     .weight1(w1_P2), .weight2(w2_P2), .weight3(w3_P2), .weight4(w4_P2), 
     //     .clk(clk), .rst(rst), .out(PU_out2)
     // );
-    Pu3 Pu_3(
+    Pu Pu_2(
         .input1(t1_out), .input2(t2_out), .input3(t3_out), .input4(t4_out), 
-        .weight1(w1_P3), .weight2(w2_P3), .weight3(w3_P3), .weight4(w4_P3), 
-        .clk(clk), .rst(rst), .out(PU_out3)
+        .weight1(w1_P2), .weight2(w2_P2), .weight3(w3_P2), .weight4(w4_P2), 
+        .clk(clk), .rst(rst), .out(PU_out2)
     );
-    // Pu Pu_3(
+    // Pu3 Pu_3(
     //     .input1(t1_out), .input2(t2_out), .input3(t3_out), .input4(t4_out), 
     //     .weight1(w1_P3), .weight2(w2_P3), .weight3(w3_P3), .weight4(w4_P3), 
     //     .clk(clk), .rst(rst), .out(PU_out3)
     // );
-    Pu4 Pu_4(
+    Pu Pu_3(
         .input1(t1_out), .input2(t2_out), .input3(t3_out), .input4(t4_out), 
-        .weight1(w1_P4), .weight2(w2_P4), .weight3(w3_P4), .weight4(w4_P4), 
-        .clk(clk), .rst(rst), .out(PU_out4)
+        .weight1(w1_P3), .weight2(w2_P3), .weight3(w3_P3), .weight4(w4_P3), 
+        .clk(clk), .rst(rst), .out(PU_out3)
     );
-    // Pu Pu_4(
+    // Pu4 Pu_4(
     //     .input1(t1_out), .input2(t2_out), .input3(t3_out), .input4(t4_out), 
     //     .weight1(w1_P4), .weight2(w2_P4), .weight3(w3_P4), .weight4(w4_P4), 
     //     .clk(clk), .rst(rst), .out(PU_out4)
     // );
+    Pu Pu_4(
+        .input1(t1_out), .input2(t2_out), .input3(t3_out), .input4(t4_out), 
+        .weight1(w1_P4), .weight2(w2_P4), .weight3(w3_P4), .weight4(w4_P4), 
+        .clk(clk), .rst(rst), .out(PU_out4)
+    );
 
     // all of these activation functions have a second 32'b0 input that if the number becomes
     // negative, we set it to 0

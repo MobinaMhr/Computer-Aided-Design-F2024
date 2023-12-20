@@ -5,10 +5,10 @@ module Pu(input [4:0] input1, input2, input3, input4, weight1, weight2, weight3,
     wire [10:0] add_out1, add_out2;
     wire [11:0] add_out;
 
-    Multiplier #(5) Mult1(.x(input1), .y(weight1), .z(mul_out1));
-    Multiplier #(5) Mult2(.x(input2), .y(weight2), .z(mul_out2));
-    Multiplier #(5) Mult3(.x(input3), .y(weight3), .z(mul_out3));
-    Multiplier #(5) Mult4(.x(input4), .y(weight4), .z(mul_out4));
+    Multiplier #(5) Mult1(.x(input1), .y(weight1), .mOutput(mul_out1));
+    Multiplier #(5) Mult2(.x(input2), .y(weight2), .mOutput(mul_out2));
+    Multiplier #(5) Mult3(.x(input3), .y(weight3), .mOutput(mul_out3));
+    Multiplier #(5) Mult4(.x(input4), .y(weight4), .mOutput(mul_out4));
 
     Register #(10) Rgstr1(.input_data(mul_out1), .clk(clk), .rst(rst), .en(1'b1), .out(mul_reg_out1));
     Register #(10) Rgstr2(.input_data(mul_out2), .clk(clk), .rst(rst), .en(1'b1), .out(mul_reg_out2));
