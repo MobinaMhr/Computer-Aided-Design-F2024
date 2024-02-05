@@ -1,0 +1,600 @@
+do sim_top.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/ASUS/Desktop/CAD/trunk/trunk/sim/ca.mpf
+# TB
+# ../src/hdl
+# ../src/inc
+# 1 us
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:27:45 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Adder.sv 
+# -- Compiling module Adder
+# 
+# Top level modules:
+# 	Adder
+# End time: 17:27:45 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:27:45 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Controller.sv 
+# -- Compiling module parametrized_counter
+# -- Compiling module Controller
+# 
+# Top level modules:
+# 	Controller
+# End time: 17:27:45 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:27:45 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/DataPath.sv 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 17:27:45 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:27:45 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Four_bit_counter.sv 
+# -- Compiling module Four_bit_counter
+# 
+# Top level modules:
+# 	Four_bit_counter
+# End time: 17:27:45 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:27:45 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Filter_buffer.sv 
+# -- Compiling module Filter_buffer
+# 
+# Top level modules:
+# 	Filter_buffer
+# End time: 17:27:45 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:27:45 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Window_buffer.sv 
+# -- Compiling module Window_buffer
+# 
+# Top level modules:
+# 	Window_buffer
+# End time: 17:27:46 on Jan 05,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:27:46 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Main_buffer.sv 
+# -- Compiling module Main_buffer
+# 
+# Top level modules:
+# 	Main_buffer
+# End time: 17:27:46 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:27:46 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Mac.sv 
+# -- Compiling module Mac
+# 
+# Top level modules:
+# 	Mac
+# End time: 17:27:46 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:27:46 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Main_buffer_load_counter.sv 
+# -- Compiling module Main_buffer_load_counter
+# 
+# Top level modules:
+# 	Main_buffer_load_counter
+# End time: 17:27:46 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:27:46 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Memory.sv 
+# ** Error: (vlog-7) Failed to open design unit file "../src/hdl/Memory.sv" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 17:27:46 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./sim_top.tcl line 25
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog 	+acc -incr -source  +define+SIM 	$hdl_path/Memory.sv"
+do sim_top.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/ASUS/Desktop/CAD/trunk/trunk/sim/ca.mpf
+# TB
+# ../src/hdl
+# ../src/inc
+# 1 us
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:17 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Adder.sv 
+# -- Skipping module Adder
+# 
+# Top level modules:
+# 	Adder
+# End time: 17:34:17 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:17 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Address_calculator.sv 
+# -- Compiling module Address_calculator
+# 
+# Top level modules:
+# 	Address_calculator
+# End time: 17:34:17 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:17 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Controller.sv 
+# -- Skipping module parametrized_counter
+# -- Skipping module Controller
+# 
+# Top level modules:
+# 	Controller
+# End time: 17:34:17 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:17 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/DataPath.sv 
+# -- Skipping module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 17:34:17 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:17 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Done_checker_counter.sv 
+# -- Compiling module Done_checker_counter
+# 
+# Top level modules:
+# 	Done_checker_counter
+# End time: 17:34:17 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:17 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Filter_buffer.sv 
+# -- Skipping module Filter_buffer
+# 
+# Top level modules:
+# 	Filter_buffer
+# End time: 17:34:17 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:17 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Four_bit_counter.sv 
+# -- Skipping module Four_bit_counter
+# 
+# Top level modules:
+# 	Four_bit_counter
+# End time: 17:34:17 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:17 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Mac.sv 
+# -- Skipping module Mac
+# 
+# Top level modules:
+# 	Mac
+# End time: 17:34:17 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:17 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Main_buffer.sv 
+# -- Skipping module Main_buffer
+# 
+# Top level modules:
+# 	Main_buffer
+# End time: 17:34:17 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:17 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Main_buffer_load_counter.sv 
+# -- Skipping module Main_buffer_load_counter
+# 
+# Top level modules:
+# 	Main_buffer_load_counter
+# End time: 17:34:17 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:17 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Multiplier.sv 
+# -- Compiling module Multiplier
+# 
+# Top level modules:
+# 	Multiplier
+# End time: 17:34:18 on Jan 05,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:18 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Read_memory.sv 
+# -- Compiling module Read_memory
+# 
+# Top level modules:
+# 	Read_memory
+# End time: 17:34:18 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:18 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Register.sv 
+# -- Compiling module Register
+# 
+# Top level modules:
+# 	Register
+# End time: 17:34:18 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:18 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/PE.sv 
+# -- Compiling module PE
+# 
+# Top level modules:
+# 	PE
+# End time: 17:34:18 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:18 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Shift_register.sv 
+# -- Compiling module Shift_register
+# 
+# Top level modules:
+# 	Shift_register
+# End time: 17:34:18 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:18 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/TopModule.sv 
+# -- Compiling module TopModule
+# 
+# Top level modules:
+# 	TopModule
+# End time: 17:34:18 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:18 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Two_bit_counter.sv 
+# -- Compiling module Two_bit_counter
+# 
+# Top level modules:
+# 	Two_bit_counter
+# End time: 17:34:18 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:18 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Two_to_one_mux.sv 
+# -- Compiling module Two_to_one_mux
+# 
+# Top level modules:
+# 	Two_to_one_mux
+# End time: 17:34:18 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:18 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Up_12_counter.sv 
+# -- Compiling module Up_12_counter
+# 
+# Top level modules:
+# 	Up_12_counter
+# End time: 17:34:18 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:18 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Window_buffer.sv 
+# -- Skipping module Window_buffer
+# 
+# Top level modules:
+# 	Window_buffer
+# End time: 17:34:18 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:18 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Write_memory.sv 
+# -- Compiling module Write_memory
+# 
+# Top level modules:
+# 	Write_memory
+# End time: 17:34:18 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:18 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+incdir+../src/inc" "+define+SIM" ./tb/TB.sv 
+# -- Compiling module TB
+# 
+# Top level modules:
+# 	TB
+# End time: 17:34:18 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" -debugDB TB 
+# Start time: 17:34:19 on Jan 05,2024
+# Loading sv_std.std
+# Loading work.TB
+# Loading work.TopModule
+# Loading work.Datapath
+# Loading work.Address_calculator
+# Loading work.Adder
+# Loading work.Two_to_one_mux
+# Loading work.Register
+# Loading work.Read_memory
+# Loading work.Two_bit_counter
+# Loading work.Up_12_counter
+# Loading work.Four_bit_counter
+# Loading work.Main_buffer
+# Loading work.Window_buffer
+# Loading work.Controller
+# Loading work.Done_checker_counter
+# Loading work.Main_buffer_load_counter
+# Loading work.parametrized_counter
+# Loading work.PE
+# Loading work.Filter_buffer
+# Loading work.Mac
+# Loading work.Multiplier
+# Loading work.Shift_register
+# Loading work.Write_memory
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+# It appears vopt was not run with -debugdb option on this design.
+# Advanced Causality and Schematic debug features will not be available.
+# WARNING: No extended dataflow license exists
+# ** Warning: (vsim-7) Failed to open readmem file "./../../sim/file/input.txt " in read mode.
+# No such file or directory. (errno = ENOENT)    : ../src/hdl/Read_memory.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /TB/uut/dPath/read_mem
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "./../../sim/file/outputs/output0.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : ../src/hdl/Write_memory.sv(14)
+#    Time: 1 ps  Iteration: 4  Instance: /TB/uut/dPath/genblk1[0]/pe/write_mem
+# ** Warning: (vsim-PLI-8496) $fatal : Argument number 1 is invalid. Expecting 0, 1, or 2. Using default value of 1
+#    Time: 1 ps  Iteration: 4  Process: /TB/uut/dPath/genblk1[0]/pe/write_mem/#ALWAYS#10 File: ../src/hdl/Write_memory.sv Line: 17
+# ** Fatal: Error opening output file: ./outputs/output0.txt
+#    Time: 1 ps  Scope: TB.uut.dPath.genblk1[0].pe.write_mem File: ../src/hdl/Write_memory.sv Line: 17
+# ** Note: $finish    : ../src/hdl/Write_memory.sv(17)
+#    Time: 1 ps  Iteration: 4  Instance: /TB/uut/dPath/genblk1[0]/pe/write_mem
+# 1
+# Break in Module Write_memory at ../src/hdl/Write_memory.sv line 17
+quit -sim
+# End time: 17:37:25 on Jan 05,2024, Elapsed time: 0:03:06
+# Errors: 1, Warnings: 6
+do sim_top.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/ASUS/Desktop/CAD/trunk/trunk/sim/ca.mpf
+# TB
+# ../src/hdl
+# ../src/inc
+# 1 us
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:37:27 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Adder.sv 
+# -- Skipping module Adder
+# 
+# Top level modules:
+# 	Adder
+# End time: 17:37:27 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:37:27 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Address_calculator.sv 
+# -- Skipping module Address_calculator
+# 
+# Top level modules:
+# 	Address_calculator
+# End time: 17:37:27 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:37:27 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Controller.sv 
+# -- Skipping module parametrized_counter
+# -- Skipping module Controller
+# 
+# Top level modules:
+# 	Controller
+# End time: 17:37:27 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:37:27 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/DataPath.sv 
+# -- Skipping module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 17:37:27 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:37:27 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Done_checker_counter.sv 
+# -- Skipping module Done_checker_counter
+# 
+# Top level modules:
+# 	Done_checker_counter
+# End time: 17:37:28 on Jan 05,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:37:28 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Filter_buffer.sv 
+# -- Skipping module Filter_buffer
+# 
+# Top level modules:
+# 	Filter_buffer
+# End time: 17:37:28 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:37:28 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Four_bit_counter.sv 
+# -- Skipping module Four_bit_counter
+# 
+# Top level modules:
+# 	Four_bit_counter
+# End time: 17:37:28 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:37:28 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Mac.sv 
+# -- Skipping module Mac
+# 
+# Top level modules:
+# 	Mac
+# End time: 17:37:28 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:37:28 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Main_buffer.sv 
+# -- Skipping module Main_buffer
+# 
+# Top level modules:
+# 	Main_buffer
+# End time: 17:37:28 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:37:28 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Main_buffer_load_counter.sv 
+# -- Skipping module Main_buffer_load_counter
+# 
+# Top level modules:
+# 	Main_buffer_load_counter
+# End time: 17:37:28 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:37:28 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Multiplier.sv 
+# -- Skipping module Multiplier
+# 
+# Top level modules:
+# 	Multiplier
+# End time: 17:37:28 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:37:28 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Read_memory.sv 
+# -- Compiling module Read_memory
+# 
+# Top level modules:
+# 	Read_memory
+# End time: 17:37:28 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:37:28 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Register.sv 
+# -- Skipping module Register
+# 
+# Top level modules:
+# 	Register
+# End time: 17:37:28 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:37:28 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/PE.sv 
+# -- Skipping module PE
+# 
+# Top level modules:
+# 	PE
+# End time: 17:37:28 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:37:28 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Shift_register.sv 
+# -- Skipping module Shift_register
+# 
+# Top level modules:
+# 	Shift_register
+# End time: 17:37:28 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:37:28 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/TopModule.sv 
+# -- Skipping module TopModule
+# 
+# Top level modules:
+# 	TopModule
+# End time: 17:37:28 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:37:28 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Two_bit_counter.sv 
+# -- Skipping module Two_bit_counter
+# 
+# Top level modules:
+# 	Two_bit_counter
+# End time: 17:37:28 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:37:28 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Two_to_one_mux.sv 
+# -- Skipping module Two_to_one_mux
+# 
+# Top level modules:
+# 	Two_to_one_mux
+# End time: 17:37:29 on Jan 05,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:37:29 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Up_12_counter.sv 
+# -- Skipping module Up_12_counter
+# 
+# Top level modules:
+# 	Up_12_counter
+# End time: 17:37:29 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:37:29 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Window_buffer.sv 
+# -- Skipping module Window_buffer
+# 
+# Top level modules:
+# 	Window_buffer
+# End time: 17:37:29 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:37:29 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Write_memory.sv 
+# -- Compiling module Write_memory
+# 
+# Top level modules:
+# 	Write_memory
+# End time: 17:37:29 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:37:29 on Jan 05,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+incdir+../src/inc" "+define+SIM" ./tb/TB.sv 
+# -- Skipping module TB
+# 
+# Top level modules:
+# 	TB
+# End time: 17:37:29 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" -debugDB TB 
+# Start time: 17:37:29 on Jan 05,2024
+# Loading sv_std.std
+# Loading work.TB
+# Loading work.TopModule
+# Loading work.Datapath
+# Loading work.Address_calculator
+# Loading work.Adder
+# Loading work.Two_to_one_mux
+# Loading work.Register
+# Loading work.Read_memory
+# Loading work.Two_bit_counter
+# Loading work.Up_12_counter
+# Loading work.Four_bit_counter
+# Loading work.Main_buffer
+# Loading work.Window_buffer
+# Loading work.Controller
+# Loading work.Done_checker_counter
+# Loading work.Main_buffer_load_counter
+# Loading work.parametrized_counter
+# Loading work.PE
+# Loading work.Filter_buffer
+# Loading work.Mac
+# Loading work.Multiplier
+# Loading work.Shift_register
+# Loading work.Write_memory
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+# It appears vopt was not run with -debugdb option on this design.
+# Advanced Causality and Schematic debug features will not be available.
+# ** Note: $stop    : ./tb/TB.sv(26)
+#    Time: 13454 ps  Iteration: 0  Instance: /TB
+# Break in Module TB at ./tb/TB.sv line 26
+# End time: 17:43:49 on Jan 05,2024, Elapsed time: 0:06:20
+# Errors: 0, Warnings: 1
